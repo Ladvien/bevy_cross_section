@@ -2,6 +2,8 @@
 
 > ⚠️ **Vibe Coded** — written by an AI agent working from a human's direction. It is used in a shipping game and covered by tests, but it has had no line-by-line human audit. Read it before you trust it.
 
+> **Archived 2026-09-04 — this crate is now [`bevy_carnage::cross_section`](https://github.com/Ladvien/bevy_carnage).** Depend on `bevy_carnage` and import from `bevy_carnage::cross_section`. Every version on crates.io is yanked; a lockfile that pins one still builds. This repository no longer mirrors anything: `crates/bevy_cross_section/` was removed from [`Ladvien/foundation_vs_slop`](https://github.com/Ladvien/foundation_vs_slop) when the crate became a module.
+
 Anatomical cross-sections for cut faces: the skin, subcutaneous fat, muscle, cortical bone and marrow a cut through a limb, a torso or a head actually crosses, at the depths they were measured at on living adults — baked once into a procedural strip texture and painted onto any cap through a second UV channel.
 
 > **This repo is a read-only mirror.** It is split out of [`Ladvien/foundation_vs_slop`](https://github.com/Ladvien/foundation_vs_slop) with `git subtree split`, history intact. Issues and PRs belong upstream.
